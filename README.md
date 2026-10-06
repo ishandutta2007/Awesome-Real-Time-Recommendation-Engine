@@ -42,65 +42,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+> **Market Overview**: The global recommendation engine market is estimated at **$9.3B–$14.5B in 2026** and projected to reach **$82B–$182B by 2034–2036** (CAGR ~28%–37%). The sector is **highly competitive and fragmented** across specialized vertical solutions, though underpinned by concentrated tech & cloud infrastructure giants.
 
+| Platform | Key Features & Best Use Case | Starting Price | Free Tier / Trial Limits | Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Personalize](https://aws.amazon.com/personalize/)** | Real-time ML personalization using Amazon.com technology. Best for AWS-native setups. | Pay-as-you-go (~$0.05/training hr, ~$0.20/GB data) | **2 months free**: 20 GB data processing/mo, 100 training hrs/mo, 180,000 recommendation requests/mo | **$2.7T+** (Parent: Amazon Web Services / Amazon Market Cap) |
+| **[Segment Personas](https://segment.com/)** | Customer data platform with unified profiles for personalized recommendations. Best for Segment users. | Team plan from **$120/month** (Business tier custom quoted) | **Free Forever**: Up to 1,000 Monthly Tracked Users (MTUs) and 2 sources | **$46.2B** (Parent: Twilio Inc. Market Cap; ~$5.57B ARR) |
+| **[Dynamic Yield](https://www.dynamicyield.com/)** | Enterprise real-time personalization and optimization for e-commerce. Best for enterprise personalization. | Custom enterprise quotes (~$35,000/yr estimated entry level) | **No free tier**; enterprise sales demo / custom trial upon request | **$300M+** (Acquired by Mastercard; doubling ARR within Data & Services division) |
+| **[Algolia Recommend](https://www.algolia.com/products/recommendations/)** | AI-powered related product & trending suggestions. Best for Algolia search users. | Grow plan pay-as-you-go from **$0/mo** ($0.50 per 1k requests) | **Free Forever**: 5,000 recommendation requests/mo, 10k searches/mo, 50k records | **$2.25B** (Valuation; ~$100M ARR) |
+| **[Bloomreach Discovery](https://www.bloomreach.com/)** | AI-powered product discovery and commerce search recommendations. Best for retail personalization. | Enterprise custom quote (~$60,000/yr starting contract) | **No free tier**; enterprise demo and proof of concept on request | **$2.2B** (Valuation; $260M ARR) |
+| **[Insider](https://insiderone.com/)** | AI-native customer engagement & growth management platform. Best for marketing personalization. | Enterprise custom subscription based on MTUs/channels | **No free tier**; enterprise demo available | **$2.0B** (Valuation; $150M ARR) |
+| **[Coveo Machine Learning](https://www.coveo.com/)** | AI-powered recommendation for enterprise search & content discovery. Best for enterprise search. | Enterprise custom quote based on query volume units | **No free tier**; 14-day to 30-day enterprise evaluation trial | **~$350M CAD** (Market Cap; ~$205M CAD annual revenue) |
+| **[Nosto](https://www.nosto.com/)** | Commerce experience platform with AI product recommendations. Best for e-commerce merchants. | Modular custom quotes (~$500–$5,000+/mo estimated by volume) | **No free tier**; structured Proof of Concept (PoC) available | **~$20M ARR** (Private VC-backed; $16M+ raised) |
+| **[Crossing Minds](https://www.crossingminds.com/)** | AI recommendations for e-commerce and media content discovery. Best for diverse ML needs. | Formerly enterprise quote (Acquired by OpenAI core team) | **No free tier**; enterprise demo was available | **~$3.9M ARR** (Acquired by OpenAI; $13.5M+ total funding raised) |
+| **[Recombee](https://www.recombee.com/)** | Developer-friendly recommendation API with real-time ML algorithms. Best for developers. | Standard plan from **$99/month** | **Free Forever**: 100,000 recommendation requests/month (or 30-day unlimited trial) | **~$2.2M–$5.3M ARR** (Private unfunded / bootstrapped) |
 
-- **[Amazon Personalize](https://aws.amazon.com/personalize/)**  
-
-  **AWS's managed recommendation service** — real-time personalization with ML . **Same technology as Amazon.com** . **Best for AWS-native personalization** .
-
-
-
-- **[Dynamic Yield](https://www.dynamicyield.com/)**  
-
-  **Personalization and recommendation platform** — real-time optimization for e-commerce . **Best for enterprise personalization** .
-
-
-
-- **[Algolia Recommend](https://www.algolia.com/products/recommendations/)**  
-
-  **AI-powered recommendations** — related products, frequently bought together, and trending . **Best for Algolia search users** .
-
-
-
-- **[Coveo Machine Learning](https://www.coveo.com/)**  
-
-  **AI-powered recommendations** — personalized content and product discovery . **Best for enterprise search and recommendations** .
-
-
-
-- **[Recombee](https://www.recombee.com/)**  
-
-  **Recommendation API** — real-time personalization with machine learning . **Best for developer-friendly recommendations** .
-
-
-
-- **[Bloomreach Discovery](https://www.bloomreach.com/)**  
-
-  **AI-powered product discovery** — search and recommendations for e-commerce . **Best for retail personalization** .
-
-
-
-- **[Crossing Minds](https://www.crossingminds.com/)**  
-
-  **AI recommendations** — personalized discovery for e-commerce and media . **Best for diverse recommendation needs** .
-
-
-
-- **[Segment Personas](https://segment.com/)**  
-
-  **Customer data platform with personalization** — unified profiles for recommendations . **Best for Segment users** .
-
-
-
-- **[Insider](https://insiderone.com/)**  
-
-  **Growth management platform** — AI-powered recommendations and personalization . **Best for marketing personalization** .
-
-
-
-- **[Nosto](https://www.nosto.com/)**  
-
-  **Commerce experience platform** — AI-powered product recommendations . **Best for e-commerce** .
 
 
 
