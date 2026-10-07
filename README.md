@@ -35,7 +35,7 @@ Welcome to the definitive, high-performance guide to **Real-Time Recommendation 
 
 - [🏢 SaaS / Hosted Personalization Platforms](#-saas--hosted-personalization-platforms)
 - [💻 Open-Source Recommender Engines & Vector Search](#-open-source-recommender-engines--vector-search)
-  - [Open-Source Ecosystem (Ranked by Star Count)](#open-source-ecosystem-ranked-by-star-count)
+  - [Open-Source Ecosystem (Ranked by Stars_Count)](#open-source-ecosystem-ranked-by-star-count)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚠️ Disclaimer & System Architecture Notes](#️-disclaimer--system-architecture-notes)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -66,101 +66,101 @@ Welcome to the definitive, high-performance guide to **Real-Time Recommendation 
 
 Open-source frameworks provide self-hosted sovereignty, customizable collaborative filtering models, vector similarity indices, and deep learning algorithms for real-time recommendation engines.
 
-### Open-Source Ecosystem (Ranked by Star Count)
+### Open-Source Ecosystem (Ranked by Stars_Count)
 
-Here are the top open-source projects ranked in **descending order by GitHub Star Count**:
+Here are the top open-source projects ranked in **descending order by GitHub Stars_Count**:
 
 1. **[Elasticsearch](https://github.com/elastic/elasticsearch)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)  
-   🔍 **Search and analytics engine**, SSPL/Elastic License with **78,200+ GitHub stars**. Provides search-based recommendation algorithms, vector search capabilities, and high-performance real-time query engines for enterprise scale.
+   [![GitHub_Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)  
+   🔍 **Search and analytics engine**, SSPL/Elastic License with **78,200+ GitHub_Stars**. Provides search-based recommendation algorithms, vector search capabilities, and high-performance real-time query engines for enterprise scale.
 
 2. **[Meilisearch](https://github.com/meilisearch/meilisearch)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
-   ⚡ **Fast & ultra-relevant search engine**, MIT licensed with **59,500+ GitHub stars**. Delivers instant typo-tolerant search and real-time candidate retrieval for application recommendations.
+   [![GitHub_Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
+   ⚡ **Fast & ultra-relevant search engine**, MIT licensed with **59,500+ GitHub_Stars**. Delivers instant typo-tolerant search and real-time candidate retrieval for application recommendations.
 
 3. **[Milvus](https://github.com/milvus-io/milvus)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
-   ☁️ **Cloud-native vector database**, Apache-2.0 licensed with **46,300+ GitHub stars**. Engineered for billion-scale vector similarity search and high-throughput semantic recommendation engines.
+   [![GitHub_Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
+   ☁️ **Cloud-native vector database**, Apache-2.0 licensed with **46,300+ GitHub_Stars**. Engineered for billion-scale vector similarity search and high-throughput semantic recommendation engines.
 
 4. **[Qdrant](https://github.com/qdrant/qdrant)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
-   🚀 **High-performance vector database & search engine**, Apache-2.0 licensed with **34,900+ GitHub stars**. Provides real-time vector similarity search with rich payload filtering for embedding-based recommendation architectures.
+   [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+   🚀 **High-performance vector database & search engine**, Apache-2.0 licensed with **34,900+ GitHub_Stars**. Provides real-time vector similarity search with rich payload filtering for embedding-based recommendation architectures.
 
 5. **[Chroma](https://github.com/chroma-core/chroma)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
-   🎨 **AI-native open-source embedding database**, Apache-2.0 licensed with **29,400+ GitHub stars**. Lightweight vector store optimized for LLM integration and semantic item-to-item recommendations.
+   [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+   🎨 **AI-native open-source embedding database**, Apache-2.0 licensed with **29,400+ GitHub_Stars**. Lightweight vector store optimized for LLM integration and semantic item-to-item recommendations.
 
 6. **[Typesense](https://github.com/typesense/typesense)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
-   🎯 **Fast, typo-tolerant search engine**, GPL-3.0 licensed with **26,600+ GitHub stars**. Optimized for instant site search, faceted navigation, and search-based recommendation pipelines.
+   [![GitHub_Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)  
+   🎯 **Fast, typo-tolerant search engine**, GPL-3.0 licensed with **26,600+ GitHub_Stars**. Optimized for instant site search, faceted navigation, and search-based recommendation pipelines.
 
 7. **[PyTorch Geometric (PyG)](https://github.com/pyg-team/pytorch_geometric)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric?style=social&color=white)](https://github.com/pyg-team/pytorch_geometric/stargazers)  
-   🕸️ **Graph Neural Network library for PyTorch**, MIT licensed with **24,100+ GitHub stars**. Powers state-of-the-art graph-based recommendation systems and link prediction tasks.
+   [![GitHub_Stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric?style=social&color=white)](https://github.com/pyg-team/pytorch_geometric/stargazers)  
+   🕸️ **Graph Neural Network library for PyTorch**, MIT licensed with **24,100+ GitHub_Stars**. Powers state-of-the-art graph-based recommendation systems and link prediction tasks.
 
 8. **[Microsoft Recommenders](https://github.com/recommenders-team/recommenders)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/recommenders-team/recommenders?style=social&color=white)](https://github.com/recommenders-team/recommenders/stargazers)  
-   📦 **Best practices & algorithms for recommendation systems**, MIT licensed with **21,900+ GitHub stars**. Includes examples, utilities, and benchmarking tools for collaborative filtering, SAR, SVD, VAE, and LightGCN.
+   [![GitHub_Stars](https://img.shields.io/github/stars/recommenders-team/recommenders?style=social&color=white)](https://github.com/recommenders-team/recommenders/stargazers)  
+   📦 **Best practices & algorithms for recommendation systems**, MIT licensed with **21,900+ GitHub_Stars**. Includes examples, utilities, and benchmarking tools for collaborative filtering, SAR, SVD, VAE, and LightGCN.
 
 9. **[Weaviate](https://github.com/weaviate/weaviate)**  
-   [![GitHub Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
-   🧩 **Open-source vector database**, BSD-3-Clause licensed with **16,800+ GitHub stars**. Enables multimodal vector recommendations and GraphQL-driven semantic search.
+   [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+   🧩 **Open-source vector database**, BSD-3-Clause licensed with **16,800+ GitHub_Stars**. Enables multimodal vector recommendations and GraphQL-driven semantic search.
 
 10. **[Deep Graph Library (DGL)](https://github.com/dmlc/dgl)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/dmlc/dgl?style=social&color=white)](https://github.com/dmlc/dgl/stargazers)  
-    📊 **Easy-to-use graph neural network framework**, Apache-2.0 licensed with **14,200+ GitHub stars**. Built for scalable graph neural network training, ideal for social graph and e-commerce recommender models.
+    [![GitHub_Stars](https://img.shields.io/github/stars/dmlc/dgl?style=social&color=white)](https://github.com/dmlc/dgl/stargazers)  
+    📊 **Easy-to-use graph neural network framework**, Apache-2.0 licensed with **14,200+ GitHub_Stars**. Built for scalable graph neural network training, ideal for social graph and e-commerce recommender models.
 
 11. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
-    🔎 **Open-source search & analytics suite**, Apache-2.0 licensed with **13,800+ GitHub stars**. Community-driven search suite featuring k-NN vector search for real-time recommendation retrieval.
+    [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+    🔎 **Open-source search & analytics suite**, Apache-2.0 licensed with **13,800+ GitHub_Stars**. Community-driven search suite featuring k-NN vector search for real-time recommendation retrieval.
 
 12. **[Apache PredictionIO](https://github.com/apache/predictionio)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/apache/predictionio?style=social&color=white)](https://github.com/apache/predictionio/stargazers)  
-    🏗️ **Machine learning server for developers**, Apache-2.0 licensed with **12,500+ GitHub stars**. Classic event server architecture to build and serve predictive recommendation engines.
+    [![GitHub_Stars](https://img.shields.io/github/stars/apache/predictionio?style=social&color=white)](https://github.com/apache/predictionio/stargazers)  
+    🏗️ **Machine learning server for developers**, Apache-2.0 licensed with **12,500+ GitHub_Stars**. Classic event server architecture to build and serve predictive recommendation engines.
 
 13. **[Gorse](https://github.com/gorse-io/gorse)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/gorse-io/gorse?style=social&color=white)](https://github.com/gorse-io/gorse/stargazers)  
-    🐹 **Go-based open-source recommender system**, Apache-2.0 licensed with **9,800+ GitHub stars**. Offers automated model training, real-time recommendation APIs, collaborative filtering, matrix factorization, and an administrative dashboard.
+    [![GitHub_Stars](https://img.shields.io/github/stars/gorse-io/gorse?style=social&color=white)](https://github.com/gorse-io/gorse/stargazers)  
+    🐹 **Go-based open-source recommender system**, Apache-2.0 licensed with **9,800+ GitHub_Stars**. Offers automated model training, real-time recommendation APIs, collaborative filtering, matrix factorization, and an administrative dashboard.
 
 14. **[Surprise](https://github.com/NicolasHug/Surprise)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/NicolasHug/Surprise?style=social&color=white)](https://github.com/NicolasHug/Surprise/stargazers)  
-    🐍 **Python scikit for recommender systems**, BSD-3-Clause licensed with **6,800+ GitHub stars**. Specializes in explicit rating collaborative filtering algorithms (SVD, KNN, NMF) with evaluation tools.
+    [![GitHub_Stars](https://img.shields.io/github/stars/NicolasHug/Surprise?style=social&color=white)](https://github.com/NicolasHug/Surprise/stargazers)  
+    🐍 **Python scikit for recommender systems**, BSD-3-Clause licensed with **6,800+ GitHub_Stars**. Specializes in explicit rating collaborative filtering algorithms (SVD, KNN, NMF) with evaluation tools.
 
 15. **[LightFM](https://github.com/lyst/lightfm)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/lyst/lightfm?style=social&color=white)](https://github.com/lyst/lightfm/stargazers)  
-    💡 **Hybrid recommendation algorithm in Python**, Apache-2.0 licensed with **5,100+ GitHub stars**. Combines collaborative filtering and content-based item/user metadata to solve cold-start problems.
+    [![GitHub_Stars](https://img.shields.io/github/stars/lyst/lightfm?style=social&color=white)](https://github.com/lyst/lightfm/stargazers)  
+    💡 **Hybrid recommendation algorithm in Python**, Apache-2.0 licensed with **5,100+ GitHub_Stars**. Combines collaborative filtering and content-based item/user metadata to solve cold-start problems.
 
 16. **[RecBole](https://github.com/RUCAIBox/RecBole)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/RUCAIBox/RecBole?style=social&color=white)](https://github.com/RUCAIBox/RecBole/stargazers)  
-    📚 **Unified recommender system library built on PyTorch**, MIT licensed with **4,500+ GitHub stars**. Implements 80+ benchmarked recommendation algorithms across sequential, context-aware, and knowledge graph models.
+    [![GitHub_Stars](https://img.shields.io/github/stars/RUCAIBox/RecBole?style=social&color=white)](https://github.com/RUCAIBox/RecBole/stargazers)  
+    📚 **Unified recommender system library built on PyTorch**, MIT licensed with **4,500+ GitHub_Stars**. Implements 80+ benchmarked recommendation algorithms across sequential, context-aware, and knowledge graph models.
 
 17. **[Implicit](https://github.com/benfred/implicit)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/benfred/implicit?style=social&color=white)](https://github.com/benfred/implicit/stargazers)  
-    ⚡ **Fast collaborative filtering for implicit feedback datasets**, MIT licensed with **3,800+ GitHub stars**. GPU-accelerated ALS, BPR, and logistic matrix factorization algorithms.
+    [![GitHub_Stars](https://img.shields.io/github/stars/benfred/implicit?style=social&color=white)](https://github.com/benfred/implicit/stargazers)  
+    ⚡ **Fast collaborative filtering for implicit feedback datasets**, MIT licensed with **3,800+ GitHub_Stars**. GPU-accelerated ALS, BPR, and logistic matrix factorization algorithms.
 
 18. **[Spotlight](https://github.com/maciejkula/spotlight)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/maciejkula/spotlight?style=social&color=white)](https://github.com/maciejkula/spotlight/stargazers)  
-    🔦 **PyTorch-based recommendation model framework**, MIT licensed with **3,000+ GitHub stars**. Features deep learning utility for explicit feedback, implicit feedback, and sequential user interaction recommendation models.
+    [![GitHub_Stars](https://img.shields.io/github/stars/maciejkula/spotlight?style=social&color=white)](https://github.com/maciejkula/spotlight/stargazers)  
+    🔦 **PyTorch-based recommendation model framework**, MIT licensed with **3,000+ GitHub_Stars**. Features deep learning utility for explicit feedback, implicit feedback, and sequential user interaction recommendation models.
 
 19. **[TensorRec](https://github.com/jfkirk/tensorrec)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/jfkirk/tensorrec?style=social&color=white)](https://github.com/jfkirk/tensorrec/stargazers)  
-    🧪 **TensorFlow recommendation engine framework**, Apache-2.0 licensed with **1,300+ GitHub stars**. Customizable neural network architectures for hybrid collaborative and content-based recommendation.
+    [![GitHub_Stars](https://img.shields.io/github/stars/jfkirk/tensorrec?style=social&color=white)](https://github.com/jfkirk/tensorrec/stargazers)  
+    🧪 **TensorFlow recommendation engine framework**, Apache-2.0 licensed with **1,300+ GitHub_Stars**. Customizable neural network architectures for hybrid collaborative and content-based recommendation.
 
 20. **[Cornac](https://github.com/PreferredAI/cornac)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/PreferredAI/cornac?style=social&color=white)](https://github.com/PreferredAI/cornac/stargazers)  
-    🌽 **Multimodal recommendation framework**, Apache-2.0 licensed with **1,000+ GitHub stars**. Multi-interest and multimodal recommender algorithms leveraging text, image, and network context.
+    [![GitHub_Stars](https://img.shields.io/github/stars/PreferredAI/cornac?style=social&color=white)](https://github.com/PreferredAI/cornac/stargazers)  
+    🌽 **Multimodal recommendation framework**, Apache-2.0 licensed with **1,000+ GitHub_Stars**. Multi-interest and multimodal recommender algorithms leveraging text, image, and network context.
 
 21. **[LensKit](https://github.com/lenskit/lenskit)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/lenskit/lenskit?style=social&color=white)](https://github.com/lenskit/lenskit/stargazers)  
-    🔬 **Open-source recommender toolkit for Python**, MIT/Apache-2.0 licensed with **970+ GitHub stars**. Built for research, reproducible evaluation, and collaborative filtering algorithms.
+    [![GitHub_Stars](https://img.shields.io/github/stars/lenskit/lenskit?style=social&color=white)](https://github.com/lenskit/lenskit/stargazers)  
+    🔬 **Open-source recommender toolkit for Python**, MIT/Apache-2.0 licensed with **970+ GitHub_Stars**. Built for research, reproducible evaluation, and collaborative filtering algorithms.
 
 22. **[NVIDIA Merlin](https://github.com/NVIDIA-Merlin/Merlin)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/NVIDIA-Merlin/Merlin?style=social&color=white)](https://github.com/NVIDIA-Merlin/Merlin/stargazers)  
-    🏎️ **GPU-accelerated recommender framework**, Apache-2.0 licensed with **900+ GitHub stars**. Accelerates end-to-end deep learning recommender pipelines (NVTabular, HugeCTR, Merlin Models) for high-throughput inference.
+    [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA-Merlin/Merlin?style=social&color=white)](https://github.com/NVIDIA-Merlin/Merlin/stargazers)  
+    🏎️ **GPU-accelerated recommender framework**, Apache-2.0 licensed with **900+ GitHub_Stars**. Accelerates end-to-end deep learning recommender pipelines (NVTabular, HugeCTR, Merlin Models) for high-throughput inference.
 
 23. **[CaseRecommender](https://github.com/caserec/CaseRecommender)**  
-    [![GitHub Stars](https://img.shields.io/github/stars/caserec/CaseRecommender?style=social&color=white)](https://github.com/caserec/CaseRecommender/stargazers)  
-    💼 **Python framework for recommender systems**, GPL-3.0 licensed with **500+ GitHub stars**. Flexible library for collaborative filtering, content-based recommendation, and hybrid experiment workflows.
+    [![GitHub_Stars](https://img.shields.io/github/stars/caserec/CaseRecommender?style=social&color=white)](https://github.com/caserec/CaseRecommender/stargazers)  
+    💼 **Python framework for recommender systems**, GPL-3.0 licensed with **500+ GitHub_Stars**. Flexible library for collaborative filtering, content-based recommendation, and hybrid experiment workflows.
 
 ---
 
