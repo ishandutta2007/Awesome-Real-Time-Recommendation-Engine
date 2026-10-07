@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Filters for Neon Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* CSS Animations for Dynamic Aspects */
+    .bg-pulse {
+      animation: pulseGlow 6s ease-in-out infinite alternate;
+    }
+    .node-pulse {
+      animation: nodePulse 3s ease-in-out infinite alternate;
+    }
+    .flow-line {
+      stroke-dasharray: 12, 12;
+      animation: dashMove 20s linear infinite;
+    }
+    .float-item {
+      animation: floatSmooth 4s ease-in-out infinite alternate;
+    }
+    .float-item-delayed {
+      animation: floatSmooth 4s ease-in-out infinite alternate;
+      animation-delay: -2s;
+    }
+
+    @keyframes pulseGlow {
+      0% { opacity: 0.4; }
+      100% { opacity: 0.8; }
+    }
+    @keyframes nodePulse {
+      0% { r: 5px; opacity: 0.6; }
+      100% { r: 9px; opacity: 1; filter: drop-shadow(0 0 8px #a855f7); }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -240; }
+    }
+    @keyframes floatSmooth {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- Base Dark Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Background Orbs (Kept behind foreground & transparent) -->
+  <circle cx="150" cy="90" r="180" fill="#4f46e5" opacity="0.25" filter="url(#softGlow)" class="bg-pulse" />
+  <circle cx="1050" cy="270" r="200" fill="#c026d3" opacity="0.2" filter="url(#softGlow)" class="bg-pulse" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <path d="M 0,60 L 1200,60 M 0,120 L 1200,120 M 0,180 L 1200,180 M 0,240 L 1200,240 M 0,300 L 1200,300" />
+    <path d="M 150,0 L 150,360 M 300,0 L 300,360 M 450,0 L 450,360 M 600,0 L 600,360 M 750,0 L 750,360 M 900,0 L 900,360 M 1050,0 L 1050,360" />
+  </g>
+
+  <!-- Background Dynamic Network Flow Lines (Does NOT obstruct text) -->
+  <g stroke="url(#primaryGlow)" stroke-width="2" opacity="0.4" fill="none">
+    <!-- Top Decorative Line -->
+    <path d="M 50,40 Q 300,80 600,30 T 1150,50" class="flow-line" />
+    <!-- Bottom Decorative Line -->
+    <path d="M 50,320 Q 350,280 600,330 T 1150,310" class="flow-line" />
+  </g>
+
+  <!-- Subtle Dynamic Tech Nodes in Corners/Sides -->
+  <g fill="#06b6d4">
+    <circle cx="200" cy="50" class="node-pulse" />
+    <circle cx="1000" cy="55" class="node-pulse" />
+    <circle cx="150" cy="310" class="node-pulse" />
+    <circle cx="1080" cy="305" class="node-pulse" />
+  </g>
+
+  <!-- Dynamic Side Tech Cards (Pills/Metrics) placed cleanly around sides -->
+  <!-- Left Tech Badge -->
+  <g class="float-item" transform="translate(60, 160)">
+    <rect width="160" height="44" rx="22" fill="url(#cardGrad)" stroke="url(#cyanGlow)" stroke-width="1.5" />
+    <circle cx="26" cy="22" r="6" fill="#06b6d4" />
+    <text x="42" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">⚡ Real-Time ML</text>
+  </g>
+
+  <!-- Right Tech Badge -->
+  <g class="float-item-delayed" transform="translate(980, 160)">
+    <rect width="160" height="44" rx="22" fill="url(#cardGrad)" stroke="url(#primaryGlow)" stroke-width="1.5" />
+    <circle cx="26" cy="22" r="6" fill="#ec4899" />
+    <text x="42" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🎯 Vector Search</text>
+  </g>
+
+  <!-- FOREGROUND TEXT CONTENT (High contrast, crystal clear, unblocked) -->
+
+  <!-- Top Badge Category Tag -->
+  <g transform="translate(600, 75)">
+    <rect x="-140" y="-16" width="280" height="32" rx="16" fill="url(#primaryGlow)" opacity="0.25" />
+    <rect x="-140" y="-16" width="280" height="32" rx="16" fill="none" stroke="url(#primaryGlow)" stroke-width="1.5" />
+    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f3e8ff" letter-spacing="2">
+      PRODUCTION READY &amp; OPEN SOURCE
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="155" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    Awesome Real-Time Recommendation Engine
+  </text>
+  <!-- Subtle Glow Layer behind title for ultimate readability -->
+  <text x="600" y="155" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#primaryGlow)" opacity="0.3" filter="url(#glow)" letter-spacing="-0.5">
+    Awesome Real-Time Recommendation Engine
+  </text>
+
+  <!-- Subtitle / Tagline -->
+  <text x="600" y="202" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#cbd5e1" letter-spacing="0.5">
+    Curated SaaS Platforms, Deep Learning Recommenders &amp; Vector Search Ecosystem
+  </text>
+
+  <!-- Decorative Gradient Accent Bar beneath Subtitle -->
+  <rect x="450" y="225" width="300" height="4" rx="2" fill="url(#primaryGlow)" filter="url(#glow)" />
+
+  <!-- Bottom Tech Tags/Chips -->
+  <g transform="translate(600, 265)">
+    <!-- Central Pill Container -->
+    <text x="0" y="0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#94a3b8">
+      Collaborative Filtering <tspan fill="#6366f1">•</tspan> Neural Recommenders <tspan fill="#a855f7">•</tspan> Hybrid Personalization <tspan fill="#ec4899">•</tspan> Vector DBs
+    </text>
+  </g>
+
+</svg>
